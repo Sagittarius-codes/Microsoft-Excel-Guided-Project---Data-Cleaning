@@ -1,6 +1,6 @@
-# Freelancer Data Cleaning — Guided Project
+# Freelancer Data Analysis — Guided Project
 
-A data cleaning project completed as part of a guided exercise, working with a real-world-style freelancer dataset sourced from Kaggle. The focus was on identifying and resolving common data quality issues found in raw datasets.
+A guided end-to-end Excel analytics project using a real-world-style freelancer dataset sourced from Kaggle. Covers data cleaning, pivot table analysis, and a summary dashboard.
 
 ---
 
@@ -26,13 +26,34 @@ The dataset contains records of 250+ freelancers with information on their skill
 
 ---
 
+## Workbook Structure
+
+| Sheet | Description |
+|---|---|
+| `Data` | Raw and cleaned columns side by side |
+| `Pivots` | PivotTables summarizing key metrics |
+| `Dashboard` | Visual summary of insights |
+
+---
+
+## Pivot Tables Built
+
+- **Average Rating by Primary Skill** — compares performance across skill categories
+- **Freelancer Distribution by Experience Bucket** — shows experience spread (0-5 yrs up to 36-40 yrs)
+- **Count by Hourly Rate Tier** — breakdown of freelancers across rate bands ($20–$100)
+- **Count by Language** — freelancer distribution across 15 languages
+- **Count by Country** — geographic spread across 22 countries
+
+---
+
 ## Skills Demonstrated
 
-- Identifying data quality issues in raw datasets
+- Identifying and resolving data quality issues in raw datasets
 - Standardizing inconsistent categorical values
 - Extracting structured data from mixed-format text fields
-- Handling missing values
-- Organizing raw vs. cleaned columns for traceability
+- Identifying missing values across multiple columns
+- Building PivotTables for multi-dimensional analysis
+- Designing a dashboard to communicate findings visually
 
 ---
 
